@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+    
+</head>
+<body>
+
+  <div id="header">Puzzle Mania</div>
+  <div id="instruction" style="text-align: center;"><div>Please click on start button to play the game</div></div>
+  <div id="startButton" style="text-align: center;" onclick="start()"><button>Start</button></div>
+  <div id="image">
+    <img src="https://media0.giphy.com/media/pDhHexTQAVe7yXhJvQ/200w.webp?cid=ecf05e47fbwcioarf5ew8f7cot8y7ccf9e476e5hol35hznn&rid=200w.webp&ct=g" height="310x" width="550px" alt="image">
+  </div>
+  <div id="level"><div id="displayLevel"></div></div>
+  <div class="parent" id="parent">
+      <div class="div" id="div1" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag1" src="./image_part_002.jpg" height="85px" width="85px"  >
+      </div>
+      <div class="div" id="div2" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag2" src="./image_part_006.jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div3"draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag3" src="./image_part_005.jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div4" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag4" src="./image_part_003.jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div5" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag5" src="./image_part_004.jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div6" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag6" src="./image_part_001.jpg" height="85px" width="85px">
+      </div>
+  </div>
+
+
+    <div class="parent" id="parent2">
+      <div class="div" id="div11" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag11" src="./aimage_part_006 (4).jpg" height="85px" width="85px"  >
+      </div>
+      <div class="div" id="div12" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag12" src="./aimage_part_006 (6).jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div13"draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <img class="img" id="drag13" src="./aimage_part_006 (3).jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div14" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag14" src="./aimage_part_006 (1).jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div15" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag15" src="./aimage_part_006 (5).jpg" height="85px" width="85px">
+      </div>
+      <div class="div" id="div16" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img class="img" id="drag16" src="./aimage_part_006 (2).jpg" height="85px" width="85px">
+      </div>
+    </div>
+  
+  
+      <div class="parent" id="parent3">
+        <div class="div" id="div21" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+          <img class="img" id="drag21" src="./bimage_part_003 (3).jpg" height="85px" width="85px"  >
+        </div>
+        <div class="div" id="div22" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+          <img class="img" id="drag22" src="./bimage_part_003 (6).jpg" height="85px" width="85px">
+        </div>
+        <div class="div" id="div23"draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" >
+          <img class="img" id="drag23" src="./bimage_part_003 (1).jpg" height="85px" width="85px">
+        </div>
+        <div class="div" id="div24" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img class="img" id="drag24" src="./bimage_part_003 (5).jpg" height="85px" width="85px">
+        </div>
+        <div class="div" id="div25" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img class="img" id="drag25" src="./bimage_part_003 (2).jpg" height="85px" width="85px">
+        </div>
+        <div class="div" id="div26" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img class="img" id="drag26" src="./bimage_part_003 (4).jpg" height="85px" width="85px">
+        </div>
+      </div>
+    
+      <script type="text/javascript" src="./javascript.js"></script>   
+</body>
+</html>
